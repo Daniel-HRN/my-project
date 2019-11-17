@@ -1,0 +1,249 @@
+#main-meniu {
+    height: 200px;
+    width: 100%;
+}
+
+#logo1 {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#nume h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #5D1060;
+    margin-top: 50px;
+    margin-left: 65px;
+    padding-bottom: 0px;
+}
+
+#nume p {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #5D1060;
+    margin-left: 65px;
+}
+
+#meniu-icon {
+    margin-top: 45px;
+    margin-left: 90px;
+}
+
+.mobile-container {
+    position: relative;
+    max-width: 480px;
+    margin: auto;
+    background-color: rgba(43, 124, 74, 0.274);
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+.topnav {
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: #C314BE;
+    position: relative;
+    z-index: 20;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav ul li a {
+    text-decoration: none;
+    margin-left: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 40px;
+    color: white;
+}
+
+.topnav ul li:active {
+    background-color: #5D1060;
+}
+
+.topnav ul li {
+    border: 2px solid white;
+    list-style: none;
+    border-left: none;
+    padding-left: 20px;
+}
+
+#myLinks {
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#home {
+    height: 90vmax;
+    background: linear-gradient(140deg, rgba(128, 24, 179, 1) 10%, rgba(178, 14, 211, 1) 90%, rgba(186, 6, 201, 1) 99%);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+#myCarusel {
+    margin-top: 100px;
+}
+
+#slide-show {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(209, 187, 205);
+}
+
+.item img {
+    opacity: 0.1;
+    filter: alpha(opacity=50);
+}
+
+#animation-main {
+    width: 100%;
+    height: 900px;
+    min-height: fit-content;
+    position: relative;
+}
+
+#animation {
+    width: 40px;
+    height: 100px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    margin-left: 48%;
+    margin-top: 30%;
+}
+
+#animation-main h2 {
+    letter-spacing: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(238, 226, 226);
+}
+
+#kid {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: #E20DC6;
+    margin-top: 10px;
+    margin-left: 2.5px;
+    -webkit-animation-name: anime;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards
+}
+
+@-webkit-keyframes anime {
+    from {
+        top: 65px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+@keyframes anime {
+    from {
+        top: 65px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+#MyPortofolio {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(140deg, rgba(128, 24, 179, 1) 10%, rgba(178, 14, 211, 1) 90%, rgba(186, 6, 201, 1) 99%);
+}
+
+#MyPortofolio-title {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    font-family: 'Times New Roman', Times, serif;
+    color: #5D1060;
+    font-size: 80px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row-no-gutters {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#projects {
+    width: 100%;
+}
+
+.project-img {
+    background-color: #E989C0;
+    position: relative;
+}
+
+#projects img {
+    opacity: 0.3;
+    filter: alpha(opacity=50);
+}
+
+.project-img h5 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#aboutMe {
+    font-size: 20px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 0px;
+    width: 100%;
+    height: 100vmax;
+    ;
+}
+
+#aboutMe td {
+    padding: 10px;
+}
